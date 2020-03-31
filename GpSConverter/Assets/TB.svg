@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+
+<rect x="275" y="0" width="225" height="225" fill="#40A73C" stroke="none" />
+<rect x="0" y="275" width="225" height="225" fill="#059192" stroke="none" />
+<circle cx="250" cy="250" r="180" fill="none" stroke="black" stroke-width="44px" />
+<rect x="0" y="0" width="225" height="225" fill="#FEFE04" stroke="none" />
+<rect x="275" y="275" width="225" height="225" fill="#FD921E" stroke="none" />
+<polygon points="250 250 430 0 500 70" fill="#40A73C" stroke="none" />
+<polygon points="250 250 0 430 70 500" fill="#059192" stroke="none" />
+<rect x="225" y="0" width="50" height="500" fill="white" stroke="none" />
+<rect x="0" y="225" width="500" height="50" fill="white" stroke="none" />
+<polygon points="472 313 332 313 325 314 353 485 367 482 353 396" fill="black" stroke="none" />
+<path d="M 90 225 A 47.5,105.5 0 0,1 106,112 A 75.5,87.5 22.5 0,1 163,163 A 90.5,82.5 0 0,1 207,168 A 144,164 0 0,0 124,86 A 136,150 0 0,0 172,15 h -9 A 171,169 0 0,1 105,70 A 142,163 0 0,1 34,15 h -14 A 328,514 0 0,0 79,96 A 102,146 0 0,0 49,225 z" stroke="none" fill="black" />
+<circle cx="104" cy="35" r="19" fill="black" stroke="none" />
+<ellipse cx="104" cy="45" rx="6" ry="5" fill="#FEFE04" stroke="none" />
+<polygon points="82 47 16 60 16 55 82 43" fill="#FEFE04" stroke="none" />
+<polygon points="87 53 29 87 29 82 87 48" fill="#FEFE04" stroke="none" />
+<polygon points="82 47 16 60 21 70" fill="black" stroke="none" />
+<polygon points="87 53 29 87 39 96" fill="black" stroke="none" />
+
+</svg>

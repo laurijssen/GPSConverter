@@ -1,0 +1,17 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GpSConverter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="GpSConverter.MapPage"
+    mc:Ignorable="d">
+    <Grid Name="mainGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="mainGrid_Loaded">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Maps:MapControl Grid.Row="1" x:Name="mapControl" Height="600" Width="400" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" ZoomInteractionMode="GestureAndControl" TiltInteractionMode="GestureAndControl" MapServiceToken="J7jEbht1isfft8dRKO57~TMpAuvsm2YZO0VQMIPUKCA~AoTSqc7XHQe9FnCZAHb8O-jsK-_Vye0JFw8Sn-qg9t92G0VvJ05-RgDy1NUUepl-"/>
+    </Grid>
+</Page>

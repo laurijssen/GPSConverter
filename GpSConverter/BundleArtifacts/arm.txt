@@ -1,0 +1,5 @@
+MainPackage=D:\Users\User\Documents\Visual Studio 2015\Projects\GpSConverter\GpSConverter\bin\ARM\Release\GpSConverter_1.1.42.0_ARM.appx
+ResourcePack=D:\Users\User\Documents\Visual Studio 2015\Projects\GpSConverter\GpSConverter\bin\ARM\Release\GpSConverter_1.1.42.0_scale-100.appx
+ResourcePack=D:\Users\User\Documents\Visual Studio 2015\Projects\GpSConverter\GpSConverter\bin\ARM\Release\GpSConverter_1.1.42.0_scale-125.appx
+ResourcePack=D:\Users\User\Documents\Visual Studio 2015\Projects\GpSConverter\GpSConverter\bin\ARM\Release\GpSConverter_1.1.42.0_scale-150.appx
+ResourcePack=D:\Users\User\Documents\Visual Studio 2015\Projects\GpSConverter\GpSConverter\bin\ARM\Release\GpSConverter_1.1.42.0_scale-400.appx

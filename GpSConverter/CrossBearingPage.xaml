@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="GpSConverter.CrossBearingPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GpSConverter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock Text="MM DD.DDD" Margin="5,13,0,5" />
+        <TextBox x:Name="tbCurCoords" HorizontalAlignment="Left" Margin="110,13,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" IsReadOnly="True" Height="32"/>
+        <RadioButton x:Name="rbNorth" IsChecked="True" GroupName="NorthSouth" Content="North" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="68"/>
+        <RadioButton x:Name="rbSouth" GroupName="NorthSouth" Content="South" HorizontalAlignment="Left" Margin="93,50,0,0" VerticalAlignment="Top" Width="68" RenderTransformOrigin="1.592,0.469"/>
+        <RadioButton x:Name="rbEast" IsChecked="False" GroupName="EastWest" Content="East" HorizontalAlignment="Left" Margin="172,50,0,0" VerticalAlignment="Top" Width="68" RenderTransformOrigin="1.592,0.469"/>
+        <RadioButton x:Name="rbWest" IsChecked="True" GroupName="EastWest" Content="West" HorizontalAlignment="Left" Margin="240,50,0,0" VerticalAlignment="Top" Width="68" RenderTransformOrigin="1.592,0.469"/>
+        <TextBox x:Name="tbCoordsN1" HorizontalAlignment="Left" Margin="10,83,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="30" InputScope="Number" />
+        <TextBox x:Name="tbCoordsN2" HorizontalAlignment="Left" Margin="83,83,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="43" InputScope="Number" />
+        <TextBox x:Name="tbCoordsN3" HorizontalAlignment="Left" Margin="157,83,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="16" InputScope="Number" />
+        <Maps:MapControl x:Name="mapControl" Height="458" Width="400" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top" ZoomInteractionMode="GestureAndControl" TiltInteractionMode="GestureAndControl" MapServiceToken="J7jEbht1isfft8dRKO57~TMpAuvsm2YZO0VQMIPUKCA~AoTSqc7XHQe9FnCZAHb8O-jsK-_Vye0JFw8Sn-qg9t92G0VvJ05-RgDy1NUUepl-" MapTapped="mapControl_MapTapped"/>
+        <TextBox x:Name="tbCoordsE1" HorizontalAlignment="Left" Margin="10,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="30" InputScope="Number" />
+        <TextBox x:Name="tbCoordsE2" HorizontalAlignment="Left" Margin="83,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="43" InputScope="Number" />
+        <TextBox x:Name="tbCoordsE3" HorizontalAlignment="Left" Margin="157,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="16" InputScope="Number" />
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="236,83,0,0" VerticalAlignment="Top" Width="63" Click="btnAdd_Click"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="236,120,0,0" VerticalAlignment="Top" Click="btnDelete_Click"/>
+        <TextBlock x:Name="tbWait" HorizontalAlignment="Left" Margin="20,163,0,0" TextWrapping="Wrap" Text="Please wait while your position is determined" VerticalAlignment="Top" Width="332" Foreground="#FFE41717"/>
+    </Grid>
+</Page>
